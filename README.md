@@ -14,7 +14,7 @@ Ada beberapa alasan kenapa kamu harus belajar Git, yaitu:
 ## CARA INSTALL GIT DI WINDOWS
 Berikut ini adalah panduan instalasi Git di Windows:
 
-- Kamu bisa mengunduh file installer Git di situs resmi https://git-scm.com/downloads³⁴⁵ sesuai dengan versi Windows yang kamu gunakan (32-bit atau 64-bit).
+- Kamu bisa mengunduh file installer Git di situs resmi https://git-scm.com/downloads sesuai dengan versi Windows yang kamu gunakan (32-bit atau 64-bit).
 - Setelah proses download selesai, kamu bisa klik dua kali file instalasi Git yang telah kamu unduh dan mengikuti petunjuk instalasi.
 - Ada beberapa pilihan yang harus kamu perhatikan saat instalasi, seperti:
 
