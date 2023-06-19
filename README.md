@@ -27,3 +27,9 @@ Berikut ini adalah panduan instalasi Git di Windows:
   - Behavior of git pull: Kamu bisa memilih opsi behavior of git pull yang sesuai dengan kebutuhanmu atau biarkan default.
 
 - Setelah selesai instalasi, kamu bisa membuka Command Prompt atau PowerShell dan mengetik git --version untuk memeriksa versi Git yang terinstal.
+
+## CARA INSTALL GIT DI LINUX
+Berikut ini adalah panduan instalasi Git di Linux:
+
+- Kamu bisa menginstall Git menggunakan package manager yang tersedia di distro Linux yang kamu gunakan. Misalnya, jika kamu menggunakan Debian atau Ubuntu, kamu bisa menggunakan perintah sudo apt install git. Jika kamu menggunakan Fedora, kamu bisa menggunakan perintah yum install git. Setelah itu, kamu bisa mengetik git --version untuk memeriksa versi Git yang terinstal.
+- Kamu juga bisa menginstall Git dari source code jika kamu ingin mendapatkan versi terbaru atau mengkustomisasi opsi instalasi. Untuk itu, kamu harus mengunduh source code Git dari situs resmi https://git-scm.com/download. Setelah itu, kamu harus menginstal beberapa dependensi yang dibutuhkan untuk kompilasi. Kemudian, kamu bisa mengekstrak file source code dan menjalankan perintah make configure untuk membuat file konfigurasi. Selanjutnya, kamu bisa menjalankan perintah ./configure --prefix=/usr/local untuk menentukan lokasi instalasi. Lalu, kamu bisa menjalankan perintah make all doc info untuk mengkompilasi source code dan dokumentasinya. Terakhir, kamu bisa menjalankan perintah sudo make install install-doc install-html install-info untuk menginstal Git dan dokumentasinya.
