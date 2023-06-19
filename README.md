@@ -33,3 +33,13 @@ Berikut ini adalah panduan instalasi Git di Linux:
 
 - Kamu bisa menginstall Git menggunakan package manager yang tersedia di distro Linux yang kamu gunakan. Misalnya, jika kamu menggunakan Debian atau Ubuntu, kamu bisa menggunakan perintah sudo apt install git. Jika kamu menggunakan Fedora, kamu bisa menggunakan perintah yum install git. Setelah itu, kamu bisa mengetik git --version untuk memeriksa versi Git yang terinstal.
 - Kamu juga bisa menginstall Git dari source code jika kamu ingin mendapatkan versi terbaru atau mengkustomisasi opsi instalasi. Untuk itu, kamu harus mengunduh source code Git dari situs resmi https://git-scm.com/download. Setelah itu, kamu harus menginstal beberapa dependensi yang dibutuhkan untuk kompilasi. Kemudian, kamu bisa mengekstrak file source code dan menjalankan perintah make configure untuk membuat file konfigurasi. Selanjutnya, kamu bisa menjalankan perintah ./configure --prefix=/usr/local untuk menentukan lokasi instalasi. Lalu, kamu bisa menjalankan perintah make all doc info untuk mengkompilasi source code dan dokumentasinya. Terakhir, kamu bisa menjalankan perintah sudo make install install-doc install-html install-info untuk menginstal Git dan dokumentasinya.
+
+## CARA INSTALL GIT DI MAC
+Berikut ini adalah panduan instalasi Git di Mac:
+
+- Kamu bisa menginstall Git dengan beberapa cara, seperti menggunakan Xcode Command Line Tools, Homebrew, atau file installer dari situs resmi https://git-scm.com/download/mac.
+- Jika kamu menggunakan Xcode Command Line Tools, kamu bisa mengetik perintah xcode-select --install di Terminal dan mengikuti petunjuk instalasi. Jika kamu belum memiliki Xcode, perintah ini akan mengunduh dan menginstall Xcode beserta Git.
+- Jika kamu menggunakan Homebrew, kamu bisa mengetik perintah brew install git di Terminal dan menunggu proses instalasi selesai. Jika kamu belum memiliki Homebrew, kamu bisa mengunduh dan menginstallnya dari situs resmi https://brew.sh/.
+- Jika kamu menggunakan file installer, kamu bisa menjalankan file tersebut dan mengikuti petunjuk instalasi. Kamu bisa memilih opsi yang sesuai dengan kebutuhanmu saat instalasi.
+- Setelah selesai instalasi, kamu bisa mengetik git --version untuk memeriksa versi Git yang terinstal.
+
