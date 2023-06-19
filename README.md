@@ -56,3 +56,19 @@ Berikut ini adalah panduan untuk memulai Git:
 - Kamu harus melakukan push, yaitu mengirimkan file dari repositori lokal ke repositori remote. Kamu bisa menggunakan perintah git push -u origin nama_branch untuk melakukan push ke branch yang kamu inginkan. Perintah ini akan mengupload file dari repositori lokal ke repositori remote.
 - Kamu juga bisa melakukan pull, yaitu mengambil file dari repositori remote ke repositori lokal. Kamu bisa menggunakan perintah git pull origin nama_branch untuk melakukan pull dari branch yang kamu inginkan. Perintah ini akan mendownload file dari repositori remote ke repositori lokal.
 
+## PERINTAH DASAR GIT
+
+Berikut ini adalah beberapa perintah dasar Git yang sering digunakan:
+
+- git init: Digunakan untuk membuat repositori lokal baru di folder yang kamu inginkan¹²³. Perintah ini akan membuat folder .git yang berisi konfigurasi dan metadata repositori.
+- git status: Digunakan untuk mengecek status repositori lokal, seperti file yang berubah, file yang belum ditambahkan, file yang sudah ditambahkan, branch yang aktif, dll. Perintah ini berguna untuk melihat perubahan yang terjadi di repositori lokal sebelum melakukan commit atau push.
+- git add: Digunakan untuk menambahkan file ke staging area, yaitu tempat untuk menyimpan file yang siap untuk dicommit¹²³. Kamu bisa menambahkan file secara spesifik dengan nama file, seperti git add nama_file, atau menambahkan semua file dengan tanda titik, seperti git add .
+- git commit: Digunakan untuk membuat commit, yaitu tanda atau label untuk setiap perubahan kode. Perintah ini akan menyimpan file dari staging area ke repositori lokal. Kamu harus menambahkan pesan commit dengan opsi -m untuk menjelaskan perubahan yang kamu lakukan, seperti git commit -m \"pesan_commit\".
+- git push: Digunakan untuk mengirimkan file dari repositori lokal ke repositori remote. Perintah ini akan mengupload file dari repositori lokal ke repositori remote yang sudah dihubungkan dengan opsi remote add. Kamu harus menentukan nama remote dan nama branch yang ingin kamu push, seperti git push origin master. 
+- git pull: Digunakan untuk mengambil file dari repositori remote ke repositori lokal[^1^. Perintah ini akan mendownload file dari repositori remote ke repositori lokal dan menggabungkannya dengan branch yang aktif. Kamu harus menentukan nama remote dan nama branch yang ingin kamu pull, seperti git pull origin master. 
+- git clone: Digunakan untuk mengunduh kode sumber dari repositori remote ke repositori lokal. Perintah ini akan membuat salinan identik dari proyek dalam repositori remote dan menyimpannya ke komputer kamu. Kamu harus menentukan URL repositori remote yang ingin kamu clone, seperti git clone https://github.com/user/repo.git. 
+- git branch: Digunakan untuk melihat, membuat, atau menghapus branch di repositori lokal atau remote. Branch adalah cabang dari kode sumber yang bisa digunakan untuk mengembangkan fitur baru atau memperbaiki bug tanpa mengganggu branch utama. Kamu bisa melihat semua branch yang ada dengan perintah git branch --list, membuat branch baru dengan perintah git branch nama_branch, atau menghapus branch dengan perintah git branch -d nama_branch. 
+- git checkout: Digunakan untuk berpindah antara branch di repositori lokal atau remote. Perintah ini akan mengubah konten direktori kerja sesuai dengan branch yang dipilih. Kamu harus menentukan nama branch yang ingin kamu checkout, seperti git checkout nama_branch[^1^. Kamu juga bisa membuat dan checkout branch baru sekaligus dengan opsi -b, seperti git checkout -b nama_branch_baru. 
+- git merge: Digunakan untuk menggabungkan dua atau lebih branch menjadi satu branch. Perintah ini akan mencoba menggabungkan perubahan kode dari branch lain ke branch aktif secara otomatis, tetapi bisa juga menyebabkan konflik jika ada perbedaan kode yang tidak bisa diselesaikan oleh Git. Kamu harus menentukan nama branch yang ingin kamu gabungkan, seperti git merge nama_branch_lain.
+
+
